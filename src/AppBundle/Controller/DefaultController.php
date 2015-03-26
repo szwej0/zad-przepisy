@@ -20,6 +20,15 @@ class DefaultController extends Controller
      * A
      */
 
+    /**
+     * @Route("zurek.html", name="zurek")
+     */
+    public function  zurekAction()
+    {
+        return $this->render('/default/zurek.html.twig');
+    }
+
+
     /*
      * B
      */
